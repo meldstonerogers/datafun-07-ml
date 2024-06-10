@@ -1,5 +1,5 @@
 # datafun-07-ml
-Module 7 Project
+Final Project
 Melissa Stone Rogers, June 9, 2024
 
 ## Introduction
@@ -28,7 +28,7 @@ touch requirements.txt
 
 Install and freeze required packages 
 ```
-pip install jupyterlab pandas pyarrow matplotlib seaborn
+pip install jupyterlab pandas pyarrow matplotlib seaborn scipy numpy scikit-learn
 python3 -m pip freeze > requirements.txt
 
 ```
@@ -49,29 +49,50 @@ git add .
 git commit -m "initial"                         
 git push origin main
 ```
-## Project Data Set
-For this project, a data set from Seaborn will be used. The data file is flights.csv and contains data of the number of passengers in given months and years. 
-[Flights Data Set](https://github.com/mwaskom/seaborn-data/blob/master/flights.csv)
 
 
-## Exploratory Data Analysis within Jupyter
+## Final Project within Jupyter
 Create a new juypyter file. 
 ```
-touch filename.ipynb
+touch yourname_ml.ipynb
 ```
 
 ## Import Dependencies 
-
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import pyarrow as pa
+import numpy as np
+import scipy
+import sklearn
 ```
-## Follow Steps to Complete EDA
+## Follow Steps to Complete Project
 
+## Part 1 - Chart a Straight Line
+Follow instructions from text [Intro to Python for Computer Science and Data Science](https://deitel.com/intro-to-python-for-computer-science-and-data-science/) on page 414, Chapter 10.16. Utilize markdown cells to create section headings as you work.  
+ 
+## Part 2 - Prediction
+Follow instructions from text [Intro to Python for Computer Science and Data Science](https://deitel.com/intro-to-python-for-computer-science-and-data-science/) on page 416, Chapter 10.16. Utilize markdown cells to create section headings as you work. You will create seven section while working through the data: 
+- Section 1 - Data Acquisition
+- Section 2 - Data Inspection
+- Section 3 - Data Cleaning
+- Section 4 - Descriptive Statistics
+- Section 5 - Build the Model
+- Section 6 - Predict
+- Section 7 - Visualizations
+It may be helpful to outline these headings in markdown cells, with code cells in between. 
 
+## Part 3 - Prediction
+Follow instructions from text [Intro to Python for Computer Science and Data Science](https://deitel.com/intro-to-python-for-computer-science-and-data-science/) on page 620, Chapter 15.4. Utilize markdown cells to create section headings as you work. From Part 2, you have already aquired, inspected, cleaned, and ran descriptive statistics on the data. You will do the following with the data in Part 3: 
+- Section 1 - Build the Model
+- Section 2 - Test the Model
+- Section 3 - Predict 
+- Section 3 - Visualizations
+It may be helpful to outline these headings in markdown cells, with code cells in between. 
 
+## Part 4 - Insights
+Part 4 is a discussion of the two different methods use in this project to visualize data and find the linear regression line. 
 
 
 
