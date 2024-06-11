@@ -3,7 +3,7 @@ Final Project
 Melissa Stone Rogers, June 9, 2024
 
 ## Introduction
-Professional project UPDATE ONCE I DETERMINE PROJECT
+Professional project using Jupyter Lab following instructions from the textbook [Intro to Python for Computer Science and Data Science](https://deitel.com/intro-to-python-for-computer-science-and-data-science/). This project uses and compares statistical linear regression models and machine learning predictive abilities. 
 Commands were used on a Mac machine running zsh.  
 
 ## How to Install and Run the Project
@@ -50,7 +50,6 @@ git commit -m "initial"
 git push origin main
 ```
 
-
 ## Final Project within Jupyter
 Create a new juypyter file. 
 ```
@@ -94,7 +93,20 @@ It may be helpful to outline these headings in markdown cells, with code cells i
 ## Part 4 - Insights
 Part 4 is a discussion of the two different methods use in this project to visualize data and find the linear regression line. 
 
-
+## Part 5 - Bonus
+Part 5 is continued practice of using machine learning, but with multiple linear regression. Follow instructions from text [Intro to Python for Computer Science and Data Science](https://deitel.com/intro-to-python-for-computer-science-and-data-science/) on page 624, Chapter 15.5. Utilize markdown cells to create section headings as you work. You will create seven section while working through the data: 
+- Section 1 - Load Data
+- Section 2 - Display Data 
+- Section 3 - Explore Data with Pandas 
+- Section 4 - Descriptive Statistics
+- Section 5 - Visualize the Features 
+- Section 6 - Splitting the Data for Training and Testing
+- Section 7 - Training the Model
+- Section 8 - Testing the Model
+- Section 9 - Visualizing the Expected vs Predicted Prices
+- Section 10 - Regression Model Metrics 
+- Section 11 - Choosing the Best Model
+It may be helpful to outline these headings in markdown cells, with code cells in between. 
 
 ## Complete Your Project
 Save your project and push back to your repository. 
@@ -105,4 +117,4 @@ git push origin main
 ```
 
 ## Project Summary
-UPDATE 
+This is a professional project using Jupyter Lab following instructions from the textbook [Intro to Python for Computer Science and Data Science](https://deitel.com/intro-to-python-for-computer-science-and-data-science/). This project uses and compares statistical linear regression models and machine learning predictive abilities. There was additional content showing multiple linear regression models using machine learning. 
